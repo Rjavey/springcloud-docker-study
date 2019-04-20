@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/eureka-client-test/pom.xml" />
         <option value="$PROJECT_DIR$/demo/pom.xml" />
         <option value="$PROJECT_DIR$/fegin/pom.xml" />
+        <option value="$PROJECT_DIR$/fegin-test/pom.xml" />
+        <option value="$PROJECT_DIR$/client-test/pom.xml" />
       </list>
     </option>
   </component>

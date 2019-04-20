@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/eureka-client-test/client-test.iml" filepath="$PROJECT_DIR$/eureka-client-test/client-test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fegin/fegin-test.iml" filepath="$PROJECT_DIR$/fegin/fegin-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client-test/client-test.iml" filepath="$PROJECT_DIR$/client-test/client-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fegin-test/fegin-test.iml" filepath="$PROJECT_DIR$/fegin-test/fegin-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-register/service-register.iml" filepath="$PROJECT_DIR$/service-register/service-register.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springcloud-docker-study.iml" filepath="$PROJECT_DIR$/.idea/springcloud-docker-study.iml" />
     </modules>
