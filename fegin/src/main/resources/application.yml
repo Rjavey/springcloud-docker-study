@@ -1,0 +1,14 @@
+
+server:
+  port: 8763
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    instance:
+      prefer-ip-address: true # \u5C06ip\u6CE8\u518C\u5230server
+
+spring:
+  application:
+    name: fegin-helloworld # 指定注册应用名称

@@ -1,0 +1,16 @@
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    instance:
+      prefer-ip-address: true # 将ip注册到server
+
+server:
+  port: 8762
+
+spring:
+  application:
+    name: service-helloworld # 指定注册应用名称
+
