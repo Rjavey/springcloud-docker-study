@@ -1,5 +1,6 @@
 package com.eureka.clienttest;
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -37,9 +38,15 @@ public class ApiController {
         ApiController.logger.info("{}:{}:{}",serviceInstance.getServiceId(),serviceInstance.getHost(),serviceInstance.getPort());
     }
 
+
+    @HystrixCommand(fallbackMethod = "findByIdError")
     @GetMapping("/{id}")
     public String find(@PathVariable("id")Long id){
         return id.toString() + "111";
+    }
+
+    public String findByIdError(Long id){
+        return id.toString();
     }
 
 }
